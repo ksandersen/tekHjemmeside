@@ -1,0 +1,234 @@
+html {
+
+    background-color: rgb(213, 223, 239);
+    overflow: auto; 
+    height: 100%; 
+}
+
+body{
+    max-width: 1500px;
+    margin-top: 0; 
+    margin-bottom: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    color:rgb(213, 223, 239);
+    background-color:rgb(31,33,35);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 5);
+}
+
+.RPO{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.pp{
+    margin-bottom: 50px;
+}
+
+.Tekst1{
+    margin-left: 600px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+ul{
+    padding-bottom: 50px;
+}
+
+.TMBHEAD{
+    margin-left: 600px;
+    margin-right: auto;
+    margin-bottom: 110px;
+    margin-top: 50px;
+}
+
+.kris{
+    float: right;
+    margin-left: 50px;
+}
+
+h2{
+    margin-left: 300px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+h3{
+    margin-left: 50px;
+}
+.metext{
+    margin-bottom: 50px;
+}
+
+.RHEAD{
+    margin-left: 700px;
+    margin-right: auto;
+    margin-bottom: 45px;
+    margin-top: 175px;
+}
+
+.h1{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.h2{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.h3{
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 300px;
+}
+
+.h4{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+}
+
+.h5{
+    margin-left: 450px;
+    margin-right: 400px;
+    padding-bottom: 300px;
+}
+
+.VID1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Tekst2{
+    margin-top: 50px;
+    margin-left: 650px;
+    padding-bottom: 50px;
+}
+
+.NavSubMenu{
+    background-color: #05317e;
+}
+._NAVMENU {
+    background-color: #000;
+}
+
+.NavSubSubMenu{
+    background-color:rgb(96, 99, 104);
+}
+
+nav {
+    color: white; 
+    margin: 0;
+}
+
+.img2{
+    max-width: 800px;
+    margin-left: 50px;
+}
+
+.copyright1{
+    padding-bottom: 265px;
+}
+
+.barnemordetpic{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 1410px;
+    margin-bottom: 40px;
+}
+
+.fortidenhead h1{
+    display: inline;
+    padding-bottom: 35px;
+}
+
+.ft1{
+    margin-left: 50px;
+    margin-bottom: 35px;
+}
+
+.ft2{
+    margin-left: 850px;
+    margin-bottom: 35px;
+}
+
+.analysebm{
+    margin-left: 260px;
+    margin-right: 100px;
+}
+
+.billedear{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.billedetxt1{
+    margin-left: 400px;
+}
+
+.bt{
+    margin-left: 720px;
+}
+
+.Tekst5{
+    margin-left: 700px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding-bottom: 6000px;
+}
+/*Nulstiller link farve og understregning*/
+nav a, nav a:link, nav a:visited, nav a:hover, nav a:active {
+    text-decoration: none; 
+    color: white;
+    font-weight: bold; 
+}
+
+/*Får menupunkterne til at stå på linje med hinanden og laver luft rundt om teksten*/
+nav a {
+    display: inline-block;
+    padding: 20px; 
+}
+
+/*Når musen er over linket*/
+nav a:hover {
+    background-color: #A90D18;
+}
+
+/*Når museknappen holdes nede på linket*/
+nav a:active {
+    background-color: #E24B55;
+}
+
+.kftekst1{
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-bottom: 75px;
+}
+
+.kftekst2{
+    margin-left: 580px;
+    padding-bottom: 450px;
+}
+
+.kfteskst3{
+    margin-top: 110px;
+    margin-left: 670px;
+}
+
+.anmeldese{
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 20px;
+}
+
+.bylinekf{
+    margin-left: 500px;
+    padding-bottom: 250px;
+}
