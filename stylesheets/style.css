@@ -121,7 +121,7 @@ h2, p {
 }
 
 .bund{
-  height: auto 500px;
+  height: auto;
   background-color: #DBDBDB;
   box-shadow: 0 100px 100px 0 white, 0 100px 100px 0 #DBDBDB;   
   text-align: center;   
