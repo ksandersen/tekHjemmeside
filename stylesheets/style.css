@@ -132,3 +132,50 @@ h2, p {
   margin: 30px;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+/*
+* <--------------->
+*    Mobile view
+* <--------------->
+*/
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 95%
+  }
+
+  .dotM {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    background-color: rgba(219, 219, 219, 0.93);
+    display: inline-block;
+    margin: 5px;
+    margin-botton: 10%;
+  }
+
+  .dot {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    background-color: rgba(219, 219, 219, 0.73);
+    display: inline-block;
+    margin: 5px;
+  }
+}
