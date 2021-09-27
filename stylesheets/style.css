@@ -145,6 +145,7 @@ h2, p {
 
 .contactInfo {
   text-align: center;
+  margin: 0 auto;
 }
 
 #contactTable{
