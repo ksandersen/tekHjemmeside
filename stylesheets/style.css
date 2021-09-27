@@ -121,7 +121,7 @@ h2, p {
 }
 
 .bund{
-  height: 500px;
+  height: 500px auto;
   background-color: #DBDBDB;
   box-shadow: 0 100px 100px 0 white, 0 100px 100px 0 #DBDBDB;   
   text-align: center;   
@@ -130,7 +130,6 @@ h2, p {
 
 .bundTekst{
   margin: 30px;
-  text-align: center;
 }
 
 
@@ -138,6 +137,35 @@ h2, p {
 
 
 
+/*
+* <--------------->
+*   Kontakt Siden
+* <--------------->
+*/
+
+.contactInfo {
+  text-align: center;
+}
+
+#contactTable{
+  border-spacing: 0px 0px;
+  margin: 0 auto;
+  border: 5px;
+  margin-bottom: 5px;;
+}
+
+#contactTable tr td{
+  width: 25%;
+}
+
+#contactTable tr td p{
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+#contactTable tr td .profileName{
+  font-weight: bold;
+}
 
 
 

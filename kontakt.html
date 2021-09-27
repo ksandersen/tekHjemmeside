@@ -5,6 +5,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Wawes</title>
+
+
+  <!-- StyleSheets -->
 	<link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -12,24 +15,70 @@
 <video autoplay muted loop id="video-container">
   <source src="videos/beach2.mp4" type="video/mp4">
 </video>
-
+  
+  <!-- Wawes Logo -->
   <div class="top">
     <form action="/index.html">
-      <input type="image" src="pics/logoub.png" class="logo" id="saveForm" href="index.html" />
+      <input type="image" src="img/logoub.png" class="logo" id="saveForm" href="index.html" />
     </form>
   </div>
   
-  
+  <!-- Nav Menu -->
   <div class="side">
     <a class="dot" href="omos.html"><span>OM OS</span></a>
     <a class="dotM" href="projekt.html"><span>PROJEKT</span></a>
     <a class="dot" href="kontakt.html"><span>KONTAKT</span></a>
   </div>
 
+  <!-- Selve siden -->
   <div class="bund">
-    <h1 class="bundTekst">
-      Kontakt:
-    </h1>
+    <h1 class="bundTekst">Kontakt</h1>
+
+    <div id="contactInfo">
+      <table id="contactTable">
+        <tbody>
+          <!-- Pictures -->
+          <tr>
+            <td id="tdLucas">
+              <img src="./img/lucas.jpg" alt="Lucas">
+              <p class="profileName">Lucas Valdemar Dahl</p>
+              <p><a href="mailto:Lucasdahl10@gmail.com">Lucasdahl10@gmail.com</a></p>
+              <p>+45 42 46 44 07</p>
+              <p>Brørup</p>
+            </td>
+
+            <td id="tdAlex">
+              <img src="./img/Alex.jpg" alt="Alexander">
+              <p class="profileName">Alexander Wiencken</p>
+              <p><a href="mailto:Alexander-wiencken@live.dk">Alexander-wiencken@live.dk</a></p>
+              <p>+45 50 40 85 78</p>
+              <p>Esbjerg C</p>
+            </td>
+
+            <td id="tdKris">
+              <img src="./img/kris.jpg" alt="Kristoffer">
+              <p class="profileName">Kristoffer Andersen</p>
+              <p><a href="mailto:Krissivej@gmail.com">Krissivej@gmail.com</a></p>
+              <p>+45 61 31 78 20</p>
+              <p>Esbjerg V</p>
+            </td>
+
+            <td id="tdJeppe">
+              <img src="./img/jeppe.jpg" alt="Jeppe">
+              <p class="profileName">Jeppe Helsinghoff</p>
+              <p><a href="mailto:Jth2003@live.dk">Jth2003@live.dk</a></p>
+              <p>+45 28 68 77 40</p>
+              <p>Esbjerg N</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+     <!-- Rybners Logo -->
+    <div>
+      <img src="./img/mimers20-logo.png" alt="">
+    </div>
   </div>
 
   </body>
