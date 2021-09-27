@@ -1,84 +1,84 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-  }
-  
-  body {
+}
+
+body {
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     line-height: 2em;
     overflow-x: hidden;
-  }
-  
-  a {
+}
+
+a {
     text-decoration: underline solid transparent;
     transition: text-decoration 0.3s ease;
     margin: 1em auto;
     padding: 1em;
     color: #303030;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline solid currentColor;
     color: black;
-  }
-  
-  h2, p {
+}
+
+h2, p {
     color: #303030;
-    }
-  
-  .site-header {
-      position: absolute;
-      z-index: 1000;
-      width: 100%;
-      top: 0;
-      left: 0;
-      padding: 40px;
-  }
-  
-  .container {
+}
+
+.site-header {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 40px;
+}
+
+.container {
     position: fixed;
-  }
-  
-  .logo-container {
-      display: block;
-      padding: 30px;
-      width: 320px;
-      height: 160px;
-  }
-  
-  .site-logo { font-size: 3rem; }
-  .site-name { font-size: 1.9rem; }
-  
-  #video-container {
-      max-height: 720px;
-      overflow: hidden;
-      background-color: #333;
-  
-      position: fixed;
-      right: 0;
-      bottom: 0;
-      min-width: 100%;
-      min-height: 100%;
-  
-      object-fit: fill;
-      z-index: -1000;
-  
-      filter: blur(30px);
-  }
-  
-  
-  
-  .logo{
+}
+
+.logo-container {
+    display: block;
+    padding: 30px;
+    width: 320px;
+    height: 160px;
+}
+
+.site-logo { font-size: 3rem; }
+.site-name { font-size: 1.9rem; }
+
+#video-container {
+        max-height: 720px;
+        overflow: hidden;
+        background-color: #333;
+
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+
+        object-fit: fill;
+        z-index: -1000;
+
+        filter: blur(30px);
+}
+
+
+
+.logo{
     width:  50%;
     margin: auto;
-  }
-  
-  
-  .dot {
-    
+}
+
+
+.dot {
+
     width: 200px;
     height: 200px;
     line-height: 200px;
@@ -89,9 +89,9 @@ html {
     background-color: rgba(219, 219, 219, 0.73);
     display: inline-block;
     margin: 5px;
-  }
-  
-  .dotM {
+}
+
+.dotM {
     width: 400px;
     height: 400px;
     line-height: 400px;
@@ -100,111 +100,121 @@ html {
     color: black;
     text-align: center;
     background-color: rgba(219, 219, 219, 0.93);
-    
+
     display: inline-block;
     margin: 5px;
-    margin-botton: 10%;
-  }
-  
-  .top {
+    margin-bottom: 10%;
+}
+
+.top {
     text-align: center;
     margin: 75px;
-    
-  }
-  
-  .side {
+
+}
+
+.side {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 150px;
     width: 100%;
     text-align: center;
-  }
-  
-  .bund{
+}
+
+.bund{
     height: auto;
     background-color: #DBDBDB;
     box-shadow: 0 100px 100px 0 white, 0 100px 100px 0 #DBDBDB;   
     text-align: center;   
-    
-  }
-  
-  .bundTekst{
+
+}
+
+.bundTekst{
+    padding-top: 5px;
     margin: 30px;
-  }
-  
-  
-  
-  
-  
-  
-  /*
-  * <--------------->
-  *   Kontakt Siden
-  * <--------------->
-  */
-  
-  .contactInfo {
+}
+
+
+
+
+/*
+* <--------------->
+*    Omos Siden
+* <--------------->
+*/
+.bund #omosText {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/*
+* <--------------->
+*   Kontakt Siden
+* <--------------->
+*/
+
+.contactInfo {
     text-align: center;
     margin: 0 auto;
-  }
-  
-  #contactTable{
+}
+
+#contactTable{
     border-spacing: 0px 0px;
     margin: 0 auto;
     border: 5px;
     margin-bottom: 5px;
-  }
-  
-  #contactTable tr td{
+}
+
+#contactTable tr td{
     width: 25%;
-  }
-  
-  #contactTable tr td p{
+}
+
+#contactTable tr td p{
     margin-bottom: 5px;
     margin-top: 0px;
-  }
-  
-  #contactTable tr td .profileName{
+}
+
+#contactTable tr td .profileName{
     font-weight: bold;
-  }
-  
-  
-  
-  
-  /*
-  * <--------------->
-  *    Mobile view
-  * <--------------->
-  */
-  @media only screen and (max-width: 768px) {
+}
+
+
+
+
+/*
+* <--------------->
+*    Mobile view
+* <--------------->
+*/
+@media only screen and (max-width: 768px) {
     .logo {
-      width: 95%
+        width: 95%
     }
-  
+
     .dotM {
-      width: 150px;
-      height: 150px;
-      line-height: 150px;
-      border-radius: 50%;
-      font-size: 20px;
-      color: black;
-      text-align: center;
-      background-color: rgba(219, 219, 219, 0.93);
-      display: inline-block;
-      margin: 5px;
-      margin-bottom: 10%;
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        border-radius: 50%;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        background-color: rgba(219, 219, 219, 0.93);
+        display: inline-block;
+        margin: 5px;
+        margin-bottom: 10%;
     }
-  
+
     .dot {
-      width: 150px;
-      height: 150px;
-      line-height: 150px;
-      border-radius: 50%;
-      font-size: 20px;
-      color: black;
-      text-align: center;
-      background-color: rgba(219, 219, 219, 0.73);
-      display: inline-block;
-      margin: 5px;
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        border-radius: 50%;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        background-color: rgba(219, 219, 219, 0.73);
+        display: inline-block;
+        margin: 5px;
     }
-  }
+}
