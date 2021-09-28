@@ -194,6 +194,27 @@ h2, p {
     font-weight: bold;
 }
 
+.pictures {
+    padding-top: 5px;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 25px;
+    background-color: rgba(255, 249, 249, 0.5);
+    border-radius: 15px; 
+}
+
+.pictures .picture img{
+    height: 550px;
+    width: 900px;
+}
+
+.pictures .textbox {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #1f1f1f;
+    margin-top: 20px;
+    padding-bottom: 1px;
+}
 
 /*
 * <--------------->
