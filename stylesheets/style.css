@@ -179,6 +179,20 @@ h2, p {
 }
 
 
+/*
+* <--------------->
+*   Projekt Siden
+* <--------------->
+*/
+#projekt {
+    margin-left: 13px;
+    margin-right: 13px;
+    line-height: 1.5em;
+}
+
+.bund nav a {
+    font-weight: bold;
+}
 
 
 /*
