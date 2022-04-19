@@ -1,0 +1,13 @@
+C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside\Hjemmeside\Hjemmeside\obj\Release\net6.0\PubTmp\Out\Hjemmeside.exe
+C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside\Hjemmeside\Hjemmeside\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside\Hjemmeside\Hjemmeside\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside\Hjemmeside\Hjemmeside\obj\Release\net6.0\PubTmp\Out\Hjemmeside.dll
+C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside\Hjemmeside\Hjemmeside\obj\Release\net6.0\PubTmp\Out\Hjemmeside.deps.json
+C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside\Hjemmeside\Hjemmeside\obj\Release\net6.0\PubTmp\Out\Hjemmeside.runtimeconfig.json
+C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside\Hjemmeside\Hjemmeside\obj\Release\net6.0\PubTmp\Out\Hjemmeside.pdb
+C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside\Hjemmeside\Hjemmeside\obj\Release\net6.0\PubTmp\Out\System.Data.SqlClient.dll
+C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside\Hjemmeside\Hjemmeside\obj\Release\net6.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside\Hjemmeside\Hjemmeside\obj\Release\net6.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside\Hjemmeside\Hjemmeside\obj\Release\net6.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside\Hjemmeside\Hjemmeside\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside\Hjemmeside\Hjemmeside\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

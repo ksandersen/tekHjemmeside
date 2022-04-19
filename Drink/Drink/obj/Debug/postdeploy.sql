@@ -10,7 +10,7 @@ Post-Deployment Script Template
 --------------------------------------------------------------------------------------
 */
 BEGIN
-INSERT INTO dbo.Drinks (Gin, Vodka, Rom, Jager, Cola, Pris)
-VALUES (0,0,0,1,1,12)
+INSERT INTO dbo.Drinks (Number,Gin, Vodka, Rom, Jager, Cola, Pris)
+VALUES (0,0,0,0,1,1,12)
 END
 GO

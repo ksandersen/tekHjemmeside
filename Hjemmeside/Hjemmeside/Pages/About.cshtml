@@ -1,0 +1,34 @@
+﻿@page
+@model Hjemmeside.Pages.AboutModel
+@{
+}
+<a class = 'btn-primary btn-primary btn-sm' href='/Drink/Create'>New Drink</a>
+<table class = "table">
+	<thead>
+		<tr>
+			<th>Nummer</th>
+			<th>Gin</th>
+			<th>Vodka</th>
+			<th>Rom</th>
+			<th>Jager</th>
+			<th>Cola</th>
+			<th>Pris</th>
+		</tr>
+	</thead>
+	<tbody>
+ @foreach (var drink in Model.listdata)
+ {
+		<tr>
+			<td>@drink.nummer</td>
+			<td>@drink.gin</td>
+			<td>@drink.vodka</td>
+			<td>@drink.rom</td>
+			<td>@drink.jager</td>
+			<td>@drink.cola</td>
+			<td>@drink.pris</td>
+		</tr>
+ }
+	</tbody>
+
+
+</table>
