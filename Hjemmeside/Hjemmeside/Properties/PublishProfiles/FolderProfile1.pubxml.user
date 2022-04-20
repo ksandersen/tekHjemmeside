@@ -3,4 +3,8 @@
 https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside</_PublishTargetUrl>
+    <History>True|2022-04-20T11:26:37.1314557Z;</History>
+  </PropertyGroup>
 </Project>
