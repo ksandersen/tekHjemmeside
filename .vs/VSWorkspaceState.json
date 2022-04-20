@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Hjemmeside"
+    "\\Hjemmeside",
+    "\\Hjemmeside\\Hjemmeside",
+    "\\Hjemmeside\\Hjemmeside\\Pages",
+    "\\Hjemmeside\\Hjemmeside\\Pages\\Shared"
   ],
-  "SelectedNode": "\\Hjemmeside\\Hjemmeside.sln",
+  "SelectedNode": "\\Hjemmeside\\Hjemmeside\\Pages\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
