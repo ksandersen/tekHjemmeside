@@ -8,5 +8,6 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword />
     <History>False|2022-04-20T07:33:37.4495803Z;</History>
+    <_PublishTargetUrl>ftp://wawes.tech</_PublishTargetUrl>
   </PropertyGroup>
 </Project>

@@ -4,7 +4,7 @@
     <RazorPage_SelectedScaffolderID>RazorPageScaffolder</RazorPage_SelectedScaffolderID>
     <RazorPage_SelectedScaffolderCategoryPath>root/Common/RazorPage</RazorPage_SelectedScaffolderCategoryPath>
     <ActiveDebugProfile>Hjemmeside</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside\Hjemmeside\Hjemmeside\Properties\PublishProfiles\FTPProfile.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\Lucas\OneDrive\Documents\GitHub\tekHjemmeside\Hjemmeside\Hjemmeside\Properties\PublishProfiles\FolderProfile1.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
