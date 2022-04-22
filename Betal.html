@@ -14,8 +14,12 @@
     <script class="u-script" type="text/javascript" src="Onclick.js" defer=""></script>
     <script>
         var pris = 0;
-        Colabool = new Boolean(false);
-
+        var colaBool = 0;
+        var ginBool = 0;
+        var vodkaBool = 0;
+        var romBool = 0;
+        var jagerBool = 0;
+        
     </script>
     <meta name="generator" content="Nicepage 4.8.2, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
@@ -70,7 +74,7 @@
                     pris = pris + parseInt(gin.innerText);
                     prisKnap.innerText = null
                     prisKnap.innerText = pris + 'kr';
-                    ginBool = new Boolean (true)
+                    ginBool = 1
 
 
 
@@ -88,7 +92,7 @@
                     pris = pris + parseInt(vodka.innerText);
                     prisKnap.innerText = null
                     prisKnap.innerText = pris + 'kr';
-                    vodkaBool = new Boolean (true)
+                    vodkaBool = 1
 
 
 
@@ -107,7 +111,7 @@
                     pris = pris + parseInt(rom.innerText);
                     prisKnap.innerText = null
                     prisKnap.innerText = pris + 'kr';
-                    romBool = new Boolean (true)
+                    romBool = 1
 
                     "class="u-btn u-btn-round u-button-style u-custom-color-2 u-hover-palette-1-light-1 u-radius-50 u-btn-3">20
                 </button>
@@ -124,7 +128,7 @@
                     pris = pris + parseInt(jager.innerText);
                     prisKnap.innerText = null
                     prisKnap.innerText = pris + 'kr';
-                    jagerBool = new Boolean (true)
+                    jagerBool = 1
                     "
                         
                         class="u-btn u-btn-round u-button-style u-custom-color-2 u-hover-palette-1-light-1 u-radius-50 u-btn-4">15
@@ -141,7 +145,7 @@
                     pris = pris + parseInt(cola.innerText);
                     prisKnap.innerText = null
                     prisKnap.innerText = pris  + 'kr';
-                    colaBool = new Boolean (true)
+                    colaBool = 1;
 
                     "class="u-btn u-btn-round u-button-style u-custom-color-2 u-hover-palette-1-light-1 u-radius-50 u-btn-5">5<br>
                 </button>
@@ -173,7 +177,13 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
             </span>
           </a>
         </div>
-        <button id ="pris" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-6">Det bliver</button>
+        <button id ="pris" onclick="
+         alert('test');
+         var a = [ginBool, vodkaBool, romBool, jagerBool, colaBool];
+          alert(a);
+
+
+        "class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-6">Det bliver</button>
       </div>
     </section>
     
