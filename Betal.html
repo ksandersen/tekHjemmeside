@@ -11,31 +11,33 @@
     <link rel="stylesheet" href="Betal.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <script>
-        var pris = 0;
-        var colaBool = 0;
-        var ginBool = 0;
-        var vodkaBool = 0;
-        var romBool = 0;
-        var jagerBool = 0;
-        var getParameter = function (parameterName) {
-            let parameters = new URLSearchParams(window.location.search);
-            return parameters.get(parametername);
-        }
-    </script>
-    <meta name="generator" content="Nicepage 4.8.2, nicepage.com">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <form action="https://www.wawes/Betal" method="GET">
+        <script>
+            var pris = 0;
+          <input name = "Gin" id = "Gin" value="False"></input>
+          <input name = "Vodka" id = "Vodka" value="False"></input>
+          <input name = "Rom" id = "Rom" value="False"></input>
+          <input name = "Jager" id = "Jager" value="False"></input>
+          <input name = "Cola" id = "Cola" value="False"></input>
+            var getParameter = function (parameterName) {
+                let parameters = new URLSearchParams(window.location.search);
+                return parameters.get(parametername);
+            }
+        </script>
+        <meta name="generator" content="Nicepage 4.8.2, nicepage.com">
+        <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
 
 
-    <script type="application/ld+json">        {
-                "@context": "http://schema.org",
-                "@type": "Organization",
-                "name": "SmartBar"
-        }</script>
-    <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Betal">
-    <meta property="og:description" content="">
-    <meta property="og:type" content="website">
+        <script type="application/ld+json">
+            {
+                    "@context": "http://schema.org",
+                    "@type": "Organization",
+                    "name": "SmartBar"
+            }</script>
+        <meta name="theme-color" content="#478ac9">
+        <meta property="og:title" content="Betal">
+        <meta property="og:description" content="">
+        <meta property="og:type" content="website">
 </head>
   <body class="u-body u-xl-mode"><header class="u-clearfix u-header u-header" id="sec-2d59"><div class="u-clearfix u-sheet u-sheet-1">
         <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
@@ -62,6 +64,7 @@
           </div>
         </nav>
       </div></header>
+  
     <section class="u-clearfix u-section-1" id="sec-381c">
       <div class="u-clearfix u-sheet u-sheet-1">
           <div class="u-layout-horizontal u-list u-list-1">
@@ -191,26 +194,15 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                   </span>
               </a>
           </div>
-        <form action="https://wawes.tech/Betal.html" method="GET">    
-            <div>
-                <label for="Gin">Test</label>
-            <input name="Gin" id="Gin" value="True">
-            </div>
-            <div>
-                <label for="Vodka">Test 2</label>
-            </div>
-            <div>
-                <button>Send</button>
-            </div>
-            </form>
-        <button id ="pris" onclick="
+        
+        <button id ="pris" onclick="m
     
     
     if (ginBool == 1) {
         myUrl
     }
     else if (vodkaBool == 1) {
-        myUrl.searchParams.set('Vodka', 'True');
+        
     }
     else if (romBool == 1) {
         myUrl.searchParams.set('Rom', 'True');
@@ -236,7 +228,7 @@ httpGetAsync('https://jsonplaceholder.typicode.com/posts', function(result){
         "class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-6">Det bliver</button>
       </div>
     </section>
-    
+    </form>
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-8c76"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-small-text u-text u-text-variant u-text-1">Lavet af Lucas Jeppe og Kristoffer</p>
