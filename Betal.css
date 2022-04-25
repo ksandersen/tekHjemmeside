@@ -11,7 +11,6 @@
   min-height: 351px;
   grid-auto-columns: calc(20% - 8px);
   grid-template-columns: calc(20% - 8px) calc(20% - 8px) calc(20% - 8px) calc(20% - 8px) calc(20% - 8px);
-  grid-gap: 10px 10px;
   margin-top: 0;
   margin-bottom: 0;
 }
