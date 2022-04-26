@@ -15,10 +15,7 @@
         <script>
             var pris = 0;
             
-            var getParameter = function (parameterName) {
-                let parameters = new URLSearchParams(window.location.search);
-                return parameters.get(parametername);
-            }
+            console.log("Test 3");
         </script>
         <meta name="generator" content="Nicepage 4.8.2, nicepage.com">
         <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
@@ -82,7 +79,7 @@
                 " class="u-btn u-btn-round u-button-style u-custom-color-2 u-hover-palette-1-light-1 u-radius-50 u-btn-1">
                               17
                     </a>
-                        <input name="Gin" id="Gin" value="True" />
+                       
                       </div>
                   </div>
                   <div class="u-container-style u-custom-item u-list-item u-repeater-item">
@@ -192,36 +189,27 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
               </a>
           </div>
         
-        <button id ="pris" onclick="m
+        <button id ="pris" onclick="
     
     
     if (ginBool == 1) {
-        myUrl
+        console.log('Gin')
     }
-    else if (vodkaBool == 1) {
+    if (vodkaBool == 1) {
+        console.log('Vodka')
+    }
+   if (romBool == 1) {
+        console.log('Rom')
+    }
+    if (jagerBool == 1) {
+        console.log('Jager')
+    }
+    if (colaBool == 1) {
+        console.log('Cola')
+    }
+
         
-    }
-    else if (romBool == 1) {
-        myUrl.searchParams.set('Rom', 'True');
-    }
-    else if (jagerBool == 1) {
-        myUrl.searchParams.set('Jager', 'True');
-    }
-    else if (colaBool == 1) {
-        myUrl.searchParams.set('Cola','True')
-    }
 
-        let xmlHttpReq = new XMLHttpRequest();
-         xmlHttpReq.onreadystatechange = function () {
-         if (xmlHttpReq.readyState == 4 && xmlHttpReq.status == 200)
-             callback(xmlHttpReq.responseText);
-          } 
-            xmlHttpReq.open('GET', myUrl, true); // true for asynchronous 
-           xmlHttpReq.send();
-
-httpGetAsync('https://jsonplaceholder.typicode.com/posts', function(result){
-    console.log(result);
-});
         "class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-6">Det bliver</button>
       </div>
     </section>
